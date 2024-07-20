@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: kotlin-hands-on
+
+server:
+  port: 8081
