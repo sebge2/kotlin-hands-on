@@ -12,11 +12,11 @@ data class PersonEntity(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = 0,
 
-    val firstName: String?,
+    var firstName: String?,
 
-    val lastName: String?,
+    var lastName: String?,
 
-    val email: String?
+    var email: String?
 
 ) {
     constructor(firstName: String?, lastName: String?) : this(null, firstName, lastName, null)
